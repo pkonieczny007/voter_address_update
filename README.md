@@ -30,3 +30,19 @@ As your lightnode runs, it will submit computed data to xenblocks consensus ledg
 http://xenminer.mooo.com:5000/show_data
 
 The node will also write into a log file (voter.log) in the same directory.
+
+
+Update:
+
+cd voter/src
+nano main.rs
+
+# On line 291, replace the link:
+# From:
+# let post_url = "http://xenminer.mooo.com:5000/store_data";
+# To:
+# let post_url = "http://xenblocks.io:5000/store_data";
+
+cd voter
+cargo build --release
+./target/release/voter
