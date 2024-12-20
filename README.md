@@ -48,10 +48,14 @@ To:
 $ let post_url = "http://xenblocks.io:5000/store_data";
 
 cd voter
+
 cargo build --release
+
 ./target/release/voter
 
 if linker cc not found use:
+
 sudo apt update
+
 sudo apt install build-essential
 
