@@ -5,8 +5,8 @@ Installation instructions:
 
 Clone the repo:
 
-$ git clone https://github.com/pkonieczny007/voter_adress_update
-$ cd voter_adress_update
+$ git clone https://github.com/pkonieczny007/voter_address_update
+$ cd voter_address_update
 
 Install Rust:
 
