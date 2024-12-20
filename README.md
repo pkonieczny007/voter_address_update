@@ -46,3 +46,8 @@ nano main.rs
 cd voter
 cargo build --release
 ./target/release/voter
+
+if linker cc not found use:
+sudo apt update
+sudo apt install build-essential
+
