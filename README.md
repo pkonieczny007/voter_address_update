@@ -39,9 +39,9 @@ nano main.rs
 
 On line 291, replace the link:
 From:
-let post_url = "http://xenminer.mooo.com:5000/store_data";
-To:
-let post_url = "http://xenblocks.io:5000/store_data";
+$ let post_url = "http://xenminer.mooo.com:5000/store_data";
+To: 
+$ let post_url = "http://xenblocks.io:5000/store_data";
 
 cd voter
 cargo build --release
